@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Screen</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
+      input[type="email"] {
+        position: absolute;
+        width: 554px;
+        height: 74px;
+        left: 443px;
+        top: 260.48px;
+
+        background: #ffffff;
+        border: 1px solid #c1bbbb;
+        box-sizing: border-box;
+        font-family: "Signika", sans-serif;
+      }
+      input[type="password"] {
+        position: absolute;
+        width: 554px;
+        height: 74px;
+        left: 443px;
+        top: 334.48px;;
+
+        background: #ffffff;
+        border: 1px solid #c1bbbb;
+        box-sizing: border-box;
+        font-family: "Signika", sans-serif;
+      }
+      input[type="submit"] {
+        position: absolute;
+        width: 554px;
+        height: 54px;
+        left: 443px;
+        top: 420.48px;
+
+        background: #1473e6;
+        box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+        font-family: "Signika", sans-serif;
+        color: #ffffff;
+      }
+      .TextoPrincipal {
+        position: absolute;
+        width: 502.83px;
+        height: 75.05px;
+        left: 443.52px;
+        top: 150px;
+
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 111.18%;
+        
+        font-family: "Signika", sans-serif;
+        color: #1473e6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="TextoPrincipal">
+      Solicite os materias do seu almoxarifado de forma facilitada.
+    </div>
+    <div>
+      <form action="tratar.php" method="post">
+        <input type="email" name="Email" id="Email" placeholder="Email" /> <br />
+        <input type="password" name="Senha" id="Senha" placeholder="Senha"  /><br />
+        <input type="submit" value="Entrar" />
+      </form>
+    </div>
+  </body>
+</html>
